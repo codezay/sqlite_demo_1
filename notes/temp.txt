@@ -1,0 +1,10 @@
+CREATE TABLE "songs" (
+	id INTEGER PRIMARY KEY, name TEXT, cat TEXT, font TEXT, font2 TEXT, timestamp TEXT, yvideo TEXT, bkgndfname TEXT, key TEXT, copy TEXT, notes TEXT, lyrics TEXT, lyrics2 TEXT, title2 TEXT, tags TEXT, slideseq TEXT, rating TEXT, chordsavailable TEXT, usagecount TEXT, subcat INTEGER
+)
+
+
+
+CREATE TABLE "chords" (
+	id INTEGER PRIMARY KEY, title TEXT, lyrics TEXT, chords TEXT, key TEXT, chordsby TEXT, timestamp TEXT, bpm INTEGER, notes TEXT, timesignature TEXT, rhythm TEXT, complexity INTEGER, tags TEXT, rating INTEGER, original INTEGER, usagecount INTEGER, category TEXT, additional TEXT
+)
+
